@@ -1,5 +1,6 @@
 .footer-form-box {
-    width: 100%;
+    width: 570px;
+   
 
     @media screen and (min-width: $tablet) {
         display: flex;
@@ -11,6 +12,7 @@
     @media screen and (min-width: $desktop) {
         justify-content: flex-start;
         align-items: baseline;
+        margin-left: 93px;
     }
     
     

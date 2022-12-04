@@ -1,6 +1,10 @@
 .social-footer {
-    margin-left: 70px;
-    margin-right: 93px;
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 93px;
+    }
+    
+    // margin-right: 93px;
 
    
 }

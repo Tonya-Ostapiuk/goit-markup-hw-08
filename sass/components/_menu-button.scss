@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
 
+    // background-color: var(--white);
+
     @media screen and (min-width: $tablet) {
         display: none;
     }
@@ -16,5 +18,10 @@
         width: 40px;
         height: 40px;
         fill: var(--main-color-text);
+
+        .menu-button:hover &, .menu-button:hover & {
+            fill: var(--accent-color);
+        }
+        
     }
 }

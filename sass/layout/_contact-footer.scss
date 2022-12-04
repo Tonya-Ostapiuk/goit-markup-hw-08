@@ -19,6 +19,11 @@
     letter-spacing: 0.03em;
 
     margin-top: 20px;
+
+    @media screen and (min-width: $desktop) {
+       display: inline;
+        
+    }
     &__item:not(:last-child) {
         margin-bottom: 9px;
         }

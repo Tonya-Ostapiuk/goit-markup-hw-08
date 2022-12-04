@@ -22,7 +22,7 @@
         @media screen and (min-width: $desktop) {
             flex-wrap: nowrap;
             justify-content: space-between;
-            
+            gap: 0;
         }
          
     }
