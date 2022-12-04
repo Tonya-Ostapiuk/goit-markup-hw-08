@@ -1,0 +1,61 @@
+// @mixin link-header () {
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+
+//     padding: 32px 0;
+//     display: flex;
+    
+// }
+.contact {
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    padding-top: 21px;
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+    }
+   
+    &__item:not(:last-child) {
+        @media screen and (min-width: $desktop) {
+            margin-right: 50px;
+        }
+        
+    }
+        &__link{
+            color: var(--secondary-text-color);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+        
+           
+            margin-bottom: 10px;
+            display: flex;
+            text-decoration: none;
+            align-items: center;
+                        
+            @media screen and (min-width: $desktop) {
+                padding: 32px 0;
+                margin-bottom: 0;
+            }
+        }
+        &__link:hover,
+        &__link:focus {
+            color: var(--accent-color);
+    
+        }
+    }
+}
+
+
+
+.contact-nav-icons {
+    fill: currentColor;
+    margin-right: 10px;
+            
+}

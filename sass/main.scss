@@ -1,0 +1,32 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixin";
+
+@import "./base/base";
+@import "./base/container";
+@import "./base/body";
+@import "./base/section";
+
+@import "./components/section-title";
+@import "./components/description-color";
+@import "./components/buttons";
+@import "./components/logo";
+@import "./components/social-team";
+@import "./components/social-fotter";
+@import "./components/menu-button";
+
+@import "./layout/header";
+@import "./layout/header-nav";
+@import "./layout/header-contact";
+@import "./layout/hero-section";
+@import "./layout/hero-title";
+@import "./layout/footer-section";
+@import "./layout/contact-footer";
+@import "./layout/footer-form";
+@import "./layout/priorities";
+@import "./layout/services-section";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/projects";
+@import "./layout/overlay-projects";
+@import "./layout/modal";

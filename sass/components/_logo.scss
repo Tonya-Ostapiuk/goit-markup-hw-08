@@ -1,0 +1,38 @@
+
+.logo {
+    color: var(--accent-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+               
+}
+
+.header-logo {
+    margin-right: 93px;
+    padding: 16px 0;
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 26px;
+        padding-bottom: 26px;
+        margin-right: 88px;
+    }
+    @media screen and (min-width: $desktop) {
+        margin-right: 93px;
+    }
+
+    
+} 
+
+.logo--accent-footer {
+    color: var(--white);
+}
+.logo--accent-header{
+    color: var(--black);
+    
+}

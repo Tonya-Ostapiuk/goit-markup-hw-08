@@ -1,0 +1,124 @@
+.button {
+    cursor: pointer;
+    border: 0;
+    
+}
+.projects__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+
+    color: var(--main-color-text);
+    background-color: var(--secondery-fone);
+
+    border-radius: 4px;
+    
+    padding: 6px 22px;
+    height: 38px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: var(--white);
+        background-color: var(--accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    
+}
+
+.hero__main-button {
+    text-align: center;
+}
+.hero-button { 
+    background-color: var(--accent-color);
+    color: var(--white);
+   
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-hero-color);
+    }
+}
+
+.form-footer__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin: 0 auto;            
+    padding-left: 28px;
+
+    color: var(--white);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-footer__button:hover,
+.form-footer__button:focus {
+    background-color: var(--accent-hero-color);
+}
+
+.modal__button-close {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 8px;
+    right: 8px;
+
+    width: 30px;
+    height: 30px;
+
+    background: var(--white);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+.modal__button-close:focus .modal__icon-close,
+.modal__button-close:focus .modal__icon-close {
+    fill: var(--accent-color);
+}
+.modal-button{
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    
+    color: var(--white);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        background-color: var(--accent-hero-color);
+    }
+}
+
