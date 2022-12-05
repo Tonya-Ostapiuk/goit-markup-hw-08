@@ -17,12 +17,16 @@
      }
     &__link {
       font-weight: 500;
-      font-size: 40px;
+      font-size: 30px;
       line-height: 1.18;
       letter-spacing: 0.02em;
       text-decoration: none;
             
       color: var( --main-color-text);
+
+      @media screen and (min-width: $mobile) {
+        font-size: 40px;
+    }
       }
       &__link:hover,
       &__link:focus {
@@ -66,7 +70,10 @@
 .accent-mobile {
   font-size: 34px;
   color: var(--accent-color);
+
+ 
 }
+
 
 .mobile-social {
   display: flex;
@@ -86,11 +93,16 @@
     color: var(--accent-color);
   }
 }
-.mobile-line {
+.mobile-line{
   padding: 0 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-
+  &:not(:last-child) {
+  
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  
+  }
 }
+
+
 
 
 

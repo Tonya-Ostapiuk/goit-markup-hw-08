@@ -8,8 +8,7 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 50px;
-            padding-top: 94px;
-            padding-bottom: 94px;
+           
         }
         
     }
@@ -24,6 +23,8 @@
         &__item {
             margin-right: 30px;
             position: relative;
+            flex-basis: calc(( 100% - 30px * 2 ) / 3) ;
+
         }
         &__elements {
             width: 100%;

@@ -2,7 +2,7 @@
     color: var(--white);
 
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
@@ -13,4 +13,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: $tablet) {
+        max-width: 360px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 44px;
+        max-width: 696px;
+    }
 }
