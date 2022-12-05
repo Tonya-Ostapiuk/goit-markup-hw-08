@@ -11,7 +11,11 @@
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 
-     &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__item {
       margin-bottom: 32px;
     
      }
@@ -34,10 +38,7 @@
       }
       
  }
-.mobile-box {
-  margin-top: 302px;
-     
-} 
+
   .menu-container.is-open {
     transform: translateX(0);
   }
@@ -50,7 +51,7 @@
   .mobile-contacte {
     display: flex;
     flex-direction: column;
-    // align-items: left;
+    
     gap: 32px;
     
    
@@ -68,8 +69,14 @@
 
   }
 .accent-mobile {
-  font-size: 34px;
   color: var(--accent-color);
+  font-size: 28px;
+
+  @media screen and (min-width: $mobile) {
+    font-size: 34px;
+}
+  
+  
 
  
 }
@@ -81,16 +88,20 @@
   
 
   
-  
   &__link {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.22;
     letter-spacing: 0.02em;
     text-decoration: none;
     
 
     color: var(--accent-color);
+
+    @media screen and (min-width: $mobile) {
+      font-size: 18px;
+  }
+
   }
 }
 .mobile-line{
